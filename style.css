@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/004/897/828/non_2x/hand-draw-minimal-background-illustration-free-vector.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.login-container {
+    background-color: #d5d1b5;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: inline-block;
+}
+
+.login {
+    padding: 40px;
+    text-align: center;
+}
+
+.login h1 {
+    font-size: 32px;
+    color: #6c6c52;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #6c6c52;
+    display: block;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 16px;
+    outline: none;
+}
+
+button[type="submit"] {
+    background-color: #6c6c52;
+    color: #e7e5d8;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #c78282;
+    color: #333330;
+}
+
+.camera-page {
+    background-color: #fff;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/004/897/828/non_2x/hand-draw-minimal-background-illustration-free-vector.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    padding: 40px;
+    display: inline-block;
+}
+
+.camera-page h1 {
+    font-size: 32px;
+    color: #6c6c52;
+    margin-bottom: 20px;
+}
+
+.camera-feed {
+    background-color: #d5d1b5;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.camera-feed video {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.go-back {
+    text-decoration: none;
+    color: #6c6c52;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: block;
+    margin-top: 20px;
+}
+
+.go-back:hover {
+    background-color: #6c6c52;
+    color: #fff;
+}
