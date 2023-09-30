@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Real-time Object Detection</title>
+</head>
+<body>
+    <div class="container">
+        <div class="camera-page">
+            <h1>Real-time Object Detection</h1>
+            <video id="camera-feed" autoplay playsinline></video>
+            <canvas id="detection-canvas"></canvas>
+            <div id="object-list">
+                <h2>Detected Objects:</h2>
+                <!-- Detected objects will be displayed here -->
+            </div>
+            <a href="#" class="go-back">Go Back</a>
+        </div>
+    </div>
+    <script src="camera-script.js"></script>
+</body>
+</html>
