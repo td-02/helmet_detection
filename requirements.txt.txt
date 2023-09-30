@@ -1,0 +1,15 @@
+requirements.txt
+
+Flask
+Flask-SocketIO
+Pillow (PIL)
+NumPy
+PyTorch
+torchvision
+torchaudio
+YOLOv8
+(Ultralytics YOLOv8)
+OpenCV (Optional, for video processing)
+
+CODE:pip install Flask Flask-SocketIO Pillow numpy torch torchvision torchaudio yolov8 opencv-python
+     pip install Ultralytics
