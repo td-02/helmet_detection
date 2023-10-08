@@ -1,2 +1,3 @@
 # helmet_detection
-Helmet detection using computer vision
+Helmet detection using YOLOv8
+
